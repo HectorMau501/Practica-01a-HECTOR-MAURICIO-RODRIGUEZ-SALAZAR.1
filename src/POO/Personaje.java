@@ -11,6 +11,8 @@ public class Personaje extends Jugador
     private float altura;
     private String habilidad;
     private int nivelExperiencia;
+    
+    Jugador jugador1 = new Jugador();
 
     public Personaje(String genero, float altura, String habilidad, int nivelExperiencia, String nombre, int codigo, float tiempoJugando, String modalidad)
     {
@@ -20,6 +22,8 @@ public class Personaje extends Jugador
         this.habilidad = habilidad;
         this.nivelExperiencia = nivelExperiencia;
     }
+    
+    Personaje(){}
     
     //  Metodos Setters y Getters de la clase hija
     

@@ -5,7 +5,7 @@ package POO;
 public class Jugador 
 {
     
-    //Metodos
+    //Atributos 
     private String nombre;
     private int codigo;
     private float tiempoJugando;
@@ -19,6 +19,8 @@ public class Jugador
         this.tiempoJugando = tiempoJugando;
         this.modalidad = modalidad;
     }
+    
+    public Jugador(){}
     
     //Metodos Setters y Getters
     
